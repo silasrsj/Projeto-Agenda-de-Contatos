@@ -1,0 +1,49 @@
+-   Contato (telefone, email)
+    - Pessoa (nome, idade, sexo, dataNascimento)
+    - Endereço (bairro, rua, numero, cidade, estado, complemento)
+
+
+
+
+
+- Contato
+  - String telefone;
+  - String email;
+  - Pessoa pessoa;
+
+- Pessoa
+    - String nome
+    - int idade
+    - String sexo
+    - Date dataNascimento
+    - Endereco endereco;
+
+
+- Endereco
+    - String bairro
+    - String rua
+    - int numero
+    - String cidade
+    - String estado
+    - String coplemento
+
+
+
+
+- Contato
+    - int idContato
+    - String telefone
+    - String email
+    - int idPessoa
+
+- Pessoa
+    - int idPessoa
+    - int idade
+    - String sexo
+    - Date dataNasicmento
+    - int idEndereco
+
+
+- Endereco
+    - int idEndereco
+    - etc etc
